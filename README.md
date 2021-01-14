@@ -1,11 +1,36 @@
-# PCB-Contest
+# Keychain
 
 ## Overview
-This is the GitHub repository for the RoboJackets Winter 2020 PCB Competition and the template for individual or team entries into the competition. This repository will also serve to serve as the place for any rules clarifications via the [FAQ](CONTEST.md#faq).
 
-## Rules and Submission
-**Please be sure to review the rules in [CONTEST.md](CONTEST.md)!**
-To participate, click the green **Use this template** button. Then give your repository a name and make it **public**. You are now ready to start working! Your submission link will be a link to this new repository you made.
+This is a simple board to serve as a pretty keychain while being cheap ($4.148 per the [BOM](BOM.csv)). The board is designed to be manufactured using **JLCPCB** and is a regular 2 layer board with black soldermask and an ENIG finish for aesthetics.
 
-## Example
-We have provided an example project in the [Example](Example) folder showing a submission with all required parts for this contest. Feel free to use it as a template for the BOM and Documentation as a baseline.
+## Circuit
+
+This board does not have any actual circuitry.
+
+## Firmware
+
+This board does not have any programmable components so no firmware is required.
+
+## Images
+
+Schematic:
+
+![Board](Keychain_Schematic.png)
+
+Board:
+
+![Board Top](Keychain.png)
+![Board Bottom](Keychain_Bottom.png)
+
+## Ordering
+
+Please use the provided [Gerber](Keychain.zip) for orders on JLCPCB.
+
+For ordering individual boards, use the following settings:
+
+![Single Boards](Single.png)
+
+For ordering panelized boards, use the following settings:
+
+![Panelized Boards](Panel.png)
